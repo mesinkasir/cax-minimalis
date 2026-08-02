@@ -1,0 +1,8 @@
+---
+layout: default.cax
+---
+{% include hero.cax %}
+{% include intro.cax %}
+{% include card.cax %}
+{% include main.cax %}
+{% include footer.cax %}

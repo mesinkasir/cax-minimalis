@@ -1,0 +1,16 @@
+<div class="hero container mt-3 shadow-sm">
+  <div class="hero-content">
+    <span class="badge badge-warning badge-lg">✦ CAX v0.1.0 • Pure C</span>
+    <h1><a href="{{url}}" class="text-white">{{ hero.title }}</a></h1>
+      <img class="img-icon mb-3" alt="{{hero.title}}"
+      src="{{hero.image}}" loading="eager" width="40" height="40"/>
+    <p>{{ hero.description }}</p>
+    <p class="text-muted">{{ hero.text }}</p>
+    <div class="hero-actions">
+      <a href="{{ hero.button1.url }}" class="btn btn-info btn-lg">
+      {{ hero.button1.text }}</a>
+      <a href="{{ hero.button2.url }}" class="btn btn-dark btn-lg">
+      {{ hero.button2.text }}</a>
+    </div>
+  </div>
+</div>
